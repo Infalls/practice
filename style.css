@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.header img {
+  height: 46px;
+}
+.header .rzki {
+  display: flex;
+  flex-direction: column;
+}
+.header .rzki a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.header .rzki .under {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
