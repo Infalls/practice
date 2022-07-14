@@ -49,8 +49,20 @@
     width: 550px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .header .header__rzki {
+    width: 650px;
+    margin-right: 2%;
+    font-size: 16px;
+  }
+}
 .header .header__rzki .header__rzki__under {
   color: gray;
+}
+@media screen and (max-width: 1024px) {
+  .header .header__rzki .header__rzki__under {
+    font-size: 14px;
+  }
 }
 .header .header__tel {
   display: flex;
@@ -64,6 +76,12 @@
     width: 250px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .header .header__tel {
+    width: 150px;
+    margin-left: 25px;
+  }
+}
 .header .header__tel .header__tel__number {
   font-weight: bold;
   font-size: 26px;
@@ -75,9 +93,9 @@
     font-size: 26px;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   .header .header__tel .header__tel__number {
-    font-size: 12px;
+    font-size: 17px;
   }
 }
 .header .header__tel .header__tel__trade {
@@ -102,15 +120,23 @@
 .header .header__call a {
   font-size: 19px;
 }
+@media screen and (max-width: 1024px) {
+  .header .header__call a {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+}
 @media screen and (max-width: 1280px) {
   .header .header__call {
     width: 160px;
     margin-right: 5%;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   .header .header__call {
     margin-left: 5%;
+    margin-right: 3%;
+    width: 160px;
   }
 }
 
@@ -142,8 +168,9 @@
 }
 @media screen and (max-width: 1280px) {
   .welcome img {
-    width: 400px;
-    margin-top: 7%;
+    width: 500px;
+    margin-top: 2%;
+    margin-left: 4%;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 1024px) {
@@ -193,6 +220,8 @@
 @media screen and (max-width: 1280px) {
   .bricks {
     height: 600px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 .bricks .bricks__text {
@@ -222,6 +251,9 @@
 @media screen and (max-width: 1280px) {
   .bricks .bricks__menu .bricks__menu__bricks {
     width: 170px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
   }
 }
 .bricks .bricks__menu img {
@@ -230,7 +262,7 @@
 }
 @media screen and (max-width: 1280px) {
   .bricks .bricks__menu img {
-    width: 140px;
+    width: 200px;
   }
 }
 .bricks .bricks__menu .bricks__menu__text {
@@ -244,13 +276,19 @@
   margin-left: 20%;
   margin-right: 20%;
 }
+@media screen and (max-width: 1280px) {
+  .characteristic {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
 .characteristic .characteristic-header {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
 }
 .characteristic .characteristic__menu {
-  margin-top: 6%;
+  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -267,7 +305,7 @@
 }
 @media screen and (max-width: 1280px) {
   .characteristic .characteristic__menu .characteristic__menu__cell {
-    width: 170px;
+    width: 250px;
   }
 }
 .characteristic .characteristic__menu .characteristic__menu__cell .characteristic__menu__cell-header {
@@ -283,8 +321,8 @@
 }
 @media screen and (max-width: 1280px) {
   .characteristic .characteristic__menu .characteristic__menu__cell img {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
   }
 }
 .characteristic .characteristic__menu .characteristic__menu__cell .characteristic__menu__cell-text {

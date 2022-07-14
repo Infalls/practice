@@ -34,9 +34,14 @@
         @media screen and (max-width: 1280px)
             margin-right: 10%
             width: 550px
-
+        @media screen and (max-width: 1024px)
+            width: 650px
+            margin-right: 2%
+            font-size: 16px
         .header__rzki__under
             color: gray
+            @media screen and (max-width: 1024px)
+                font-size: 14px    
 
     .header__tel
         display: flex
@@ -46,6 +51,9 @@
         @media screen and (max-width: 1280px)
             margin-left: 0%
             width: 250px
+        @media screen and (max-width: 1024px)
+            width: 150px
+            margin-left: 25px
 
         .header__tel__number
             font-weight: bold
@@ -54,8 +62,9 @@
             @media screen and (max-width: 1280px)
                 font-weight: bold
                 font-size: 26px
-            @media screen and (max-width: 1025px)
-                font-size: 12px
+            @media screen and (max-width: 1024px)
+                font-size: 17px
+
         .header__tel__trade
             margin-bottom: auto
             color: gray
@@ -76,11 +85,18 @@
         height: 24px
         a
             font-size: 19px
+            @media screen and (max-width: 1024px)
+                font-size: 16px
+                vertical-align: middle
         @media screen and (max-width: 1280px)
             width: 160px
             margin-right: 5%
-        @media screen and (max-width: 1025px)
+        @media screen and (max-width: 1024px)
             margin-left: 5%
+            margin-right: 3%
+            width: 160px
+            
+            
 
 .menu
     display: flex
@@ -104,8 +120,9 @@
     align-items: center
     img
         @media screen and (max-width: 1280px)
-            width: 400px
-            margin-top: 7%
+            width: 500px
+            margin-top: 2%
+            margin-left: 4%
             @media screen and (max-width: 1024px)
                 margin-top: 8%
     .welcome__text
@@ -138,6 +155,8 @@
     margin-top: 3%  
     @media screen and (max-width: 1280px)
         height: 600px
+        margin-left: 4%
+        margin-right: 4%
     .bricks__text
         text-align: center
         font-size: 36px
@@ -159,12 +178,15 @@
             width: 250px
             @media screen and (max-width: 1280px)
                 width: 170px
+                margin-left: 5%
+                margin-right: 5%   
+                margin-top: 3%
                 
         img
             width: 200px
             margin: 0 auto
             @media screen and (max-width: 1280px)
-                width: 140px
+                width: 200px
         .bricks__menu__text
             margin-top: 10%
             font-weight: bold
@@ -175,12 +197,15 @@
     height: 400px
     margin-left: 20%
     margin-right: 20%
+    @media screen and (max-width: 1280px)
+        margin-left: 3%
+        margin-right: 3%
     .characteristic-header
         text-align: center
         font-size: 36px
         font-weight: bold
     .characteristic__menu
-        margin-top: 6%
+        margin-top: 2%
         display: flex
         flex-wrap: wrap
         justify-content: space-around
@@ -194,7 +219,7 @@
             margin-top: 5%
             width: 250px
             @media screen and (max-width: 1280px)
-                width: 170px
+                width: 250px
             .characteristic__menu__cell-header
                 font-size: 18px
                 font-weight: bold  
@@ -205,8 +230,8 @@
                 width: 80px
                 margin: 0 auto
                 @media screen and (max-width: 1280px)
-                    height: 60px
-                    width: 60px
+                    height: 80px
+                    width: 80px
             .characteristic__menu__cell-text
                 margin-top: 10%
                 text-align: center
