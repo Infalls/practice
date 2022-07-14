@@ -1,3 +1,7 @@
+.body {
+  font-family: "Raleway", sans-serif;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -5,11 +9,13 @@
   margin-right: 20%;
   margin-left: 20%;
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 @media screen and (max-width: 1280px) {
   .header {
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 0%;
+    margin-left: 0%;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -21,51 +27,67 @@
 .header img {
   height: 46px;
 }
-.header .rzki {
+@media screen and (max-width: 1280px) {
+  .header img {
+    margin-left: 7%;
+  }
+}
+.header .header__rzki {
   display: flex;
   flex-direction: column;
+  width: 650px;
 }
-.header .rzki a {
+.header .header__rzki a {
   font-size: 20px;
   text-decoration: none;
   color: black;
   font-weight: bolder;
 }
-.header .rzki .under {
-  color: gray;
-}
-.header .all-tel {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20%;
-}
 @media screen and (max-width: 1280px) {
-  .header .all-tel {
-    margin-left: 2%;
+  .header .header__rzki {
+    margin-right: 10%;
+    width: 550px;
   }
 }
-.header .all-tel .phone {
-  font-weight: bold;
-  font-size: 24px;
+.header .header__rzki .header__rzki__under {
+  color: gray;
+}
+.header .header__tel {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 250px;
 }
 @media screen and (max-width: 1280px) {
-  .header .all-tel .phone {
-    font-size: 12px;
+  .header .header__tel {
+    margin-left: 0%;
+    width: 250px;
+  }
+}
+.header .header__tel .header__tel__number {
+  font-weight: bold;
+  font-size: 26px;
+  width: 200px;
+}
+@media screen and (max-width: 1280px) {
+  .header .header__tel .header__tel__number {
+    font-weight: bold;
+    font-size: 26px;
   }
 }
 @media screen and (max-width: 1025px) {
-  .header .all-tel .phone {
+  .header .header__tel .header__tel__number {
     font-size: 12px;
   }
 }
-.header .all-tel .trade {
+.header .header__tel .header__tel__trade {
   margin-bottom: auto;
   color: gray;
   font-size: 14px;
   margin-bottom: 0;
 }
-.header .call {
-  margin-left: 10%;
+.header .header__call {
+  margin-left: 5%;
   background-color: orange;
   border-radius: 4px;
   color: white;
@@ -74,14 +96,20 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+  width: 220px;
+  height: 24px;
+}
+.header .header__call a {
+  font-size: 19px;
 }
 @media screen and (max-width: 1280px) {
-  .header .call {
-    margin-left: 6%;
+  .header .header__call {
+    width: 160px;
+    margin-right: 5%;
   }
 }
 @media screen and (max-width: 1025px) {
-  .header .call {
+  .header .header__call {
     margin-left: 5%;
   }
 }
@@ -89,20 +117,24 @@
 .menu {
   display: flex;
   background-color: black;
-  padding-left: 17%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-top: 1%;
-  matgin-right: 20%;
+  padding-left: 19%;
+  height: 62px;
+  align-items: center;
+  font-size: 18px;
+}
+@media screen and (max-width: 1280px) {
+  .menu {
+    padding-left: 5%;
+  }
 }
 .menu a {
   text-decoration: none;
-  padding-left: 5%;
+  padding-left: 2%;
   color: white;
 }
 
 .welcome {
-  background-color: #DCDCDC;
+  background-color: #B0C4DE;
   height: 340px;
   width: 100%;
   display: flex;
@@ -130,6 +162,9 @@
 @media screen and (max-width: 1280px) {
   .welcome .welcome__text {
     font-size: 40px;
+    margin-left: 8%;
+    width: 500px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 1024px) {
