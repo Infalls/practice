@@ -173,9 +173,10 @@
     margin-left: 4%;
   }
 }
-@media screen and (max-width: 1280px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .welcome img {
-    margin-top: 8%;
+    margin-top: 90px;
+    height: 250px;
   }
 }
 .welcome .welcome__text {
@@ -194,9 +195,11 @@
     font-size: 45px;
   }
 }
-@media screen and (max-width: 1280px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .welcome .welcome__text {
-    margin-left: 12%;
+    margin-left: 4%;
+    font-size: 50px;
+    margin-top: 3%;
   }
 }
 .welcome .welcome__text .welcome__text__text {
