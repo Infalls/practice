@@ -227,6 +227,12 @@
     margin-right: 4%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .bricks {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
 .bricks .bricks__text {
   text-align: center;
   font-size: 36px;
@@ -259,6 +265,13 @@
     margin-top: 3%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .bricks .bricks__menu .bricks__menu__bricks {
+    width: 180px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
 .bricks .bricks__menu img {
   width: 200px;
   margin: 0 auto;
@@ -268,13 +281,17 @@
     width: 200px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .bricks .bricks__menu img {
+    width: 150px;
+  }
+}
 .bricks .bricks__menu .bricks__menu__text {
   margin-top: 10%;
   font-weight: bold;
 }
 
 .characteristic {
-  margin-top: 3%;
   height: 400px;
   margin-left: 20%;
   margin-right: 20%;
@@ -311,6 +328,11 @@
     width: 250px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .characteristic .characteristic__menu .characteristic__menu__cell {
+    width: 180px;
+  }
+}
 .characteristic .characteristic__menu .characteristic__menu__cell .characteristic__menu__cell-header {
   font-size: 18px;
   font-weight: bold;
@@ -326,6 +348,12 @@
   .characteristic .characteristic__menu .characteristic__menu__cell img {
     height: 80px;
     width: 80px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .characteristic .characteristic__menu .characteristic__menu__cell img {
+    height: 60px;
+    width: 60px;
   }
 }
 .characteristic .characteristic__menu .characteristic__menu__cell .characteristic__menu__cell-text {
